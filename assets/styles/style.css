@@ -11,3 +11,51 @@ body {
     background-image: url(../img/bg-primary.png);
     background-repeat: repeat;
 }
+
+/* ===== Home ===== */
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    padding: 10rem 0;
+}
+
+.home h1 {
+    font-size: 5rem;
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    max-width: 70vw;
+    text-shadow: 5px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.home__image {
+    padding: 5rem;
+    width: 90vw;
+    position: relative;
+}
+
+.home__image-bg {
+    width: 70vw;
+    display: block;
+    margin: 0 auto;
+}
+
+.home__image-gabs {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40vw;
+    filter: drop-shadow(8px 10px 5px rgba(0, 0, 0, 0.2));
+}
+
+.home__image-cloud {
+    position: absolute;
+    top: -2px;
+    right: 30px;
+    width: 24vw;
+}
+
