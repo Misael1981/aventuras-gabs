@@ -91,7 +91,7 @@ h2 {
     justify-content: center;
     align-items: center;
     gap: 5rem;
-    padding: 10rem 5rem;
+    padding: 10rem 3rem;
 }
 
 .firstMoments__content-description {
@@ -110,8 +110,17 @@ h2 {
 
 .firstMoments__content-img {
     width: 85vw;
-    height: 25rem;
+    height: 100%;
     background-image: url(../img/firstMoments-p.png);
-    background-size: contain;
+    background-size: 100%;
     background-repeat: no-repeat;
+    /* padding-top: 56.25%; */
+}
+
+.firstMoments__content__img-carousel {
+    border: 1px solid white;
+    width: 20rem;
+    height: 17rem;
+    margin: 8% auto;
+    background-color: #84C4E0;
 }
