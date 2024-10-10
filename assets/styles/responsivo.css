@@ -2,4 +2,10 @@
     html {
         font-size: 50%;
     }
+
+    .firstMoments__content {
+        flex-direction: column;
+    }
+
+    
 }
