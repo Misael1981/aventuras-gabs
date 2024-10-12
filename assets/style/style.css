@@ -108,19 +108,48 @@ h2 {
     color: var(--text-black);
 }
 
-.firstMoments__content-img {
-    width: 85vw;
-    height: 100%;
-    background-image: url(../img/firstMoments-p.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    /* padding-top: 56.25%; */
+.firstMoments__content-card {
+    background-color: #fff;
+    padding: 0 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
-.firstMoments__content__img-carousel {
-    border: 1px solid white;
-    width: 20rem;
-    height: 17rem;
-    margin: 8% auto;
-    background-color: #84C4E0;
+.firstMoments__content-settings img {
+    width: 2.5rem;
+    display: block;
+    margin-left: auto;
+    padding: 1rem 0;
 }
+
+.swiper {
+    width: 35rem;
+    height: 35rem;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.firstMoments__content-icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 0 2rem;
+}
+.firstMoments__content-icons .bi {
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+.firstMoments__content-icons .bi-chat {
+    padding: 0 1rem;
+}
+
+
+

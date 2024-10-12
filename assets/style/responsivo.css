@@ -9,9 +9,11 @@
     html {
         font-size: 62.5%;
     }
+
     .home__image-gabs {
         bottom: 50px;
     }
+
     .home__image-cloud {
         bottom: 350px;
     }
@@ -23,5 +25,20 @@
     }
 }
 
+/* ===== firstMoments ===== */
+@media (width > 570px) {
+    .swiper {
+        width: 45rem;
+        height: 45rem;
+    }
+}
 
+@media (width > 970px) {
+    .firstMoments__content {
+        flex-direction: row;
+    }
 
+    .firstMoments__content-description {
+        max-width: 25vw;
+    }
+}
