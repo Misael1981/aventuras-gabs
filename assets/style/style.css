@@ -122,8 +122,8 @@ h2 {
 }
 
 .swiper {
-    width: 35rem;
-    height: 35rem;
+    width: 300px;
+    height: 300px;
 }
 
 .swiper-slide {
@@ -149,6 +149,79 @@ h2 {
 
 .firstMoments__content-icons .bi-chat {
     padding: 0 1rem;
+}
+
+
+
+
+
+.teste {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 500px;
+}
+
+.caixa-pedra {
+    width: 500px;
+    height: 350px;
+    background-color: #ccc;
+    border: 10px solid #777;
+    border-radius: 10px 20px 15px 5px; 
+    box-shadow: 
+      2px 2px 5px rgba(0,0,0,0.3),
+      -1px -1px 3px rgba(255,255,255,0.2);
+    filter: grayscale(80%) sepia(50%);
+    background-image: url('textura-pedra.jpg');
+    background-size: cover;
+}
+
+.card {
+    background-color: #d1a67a; 
+    border: 5px solid #8b5d3e; 
+    border-radius: 10px; 
+    padding: 20px;
+    max-width: 300px; 
+    margin: 20px auto; 
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); 
+    text-align: center; 
+}
+
+.card h2 {
+    color: #fff; 
+}
+
+.card p {
+    color: #fff; 
+}
+
+.container {
+    width: 300px;
+    height: 150px;
+    border: 5px solid #800000;
+    border-radius: 10px;
+    background-color: #FFF0E6;
+    position: relative;
+}
+
+.top-bar {
+    width: 100%;
+    height: 25px;
+    background-color: #FFA500;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.close-button {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 20px;
+    color: #800000;
+    cursor: pointer;
 }
 
 
