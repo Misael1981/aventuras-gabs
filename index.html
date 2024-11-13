@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsivo.css">
+    <!-- ===== Js ===== -->
+     <script src="assets/js/app.js" defer></script>
     <title>As Aventuras do Gabs</title>
 </head>
 <body>
@@ -53,26 +55,56 @@
         </div>
       </div>
     </div>
+
+    <div class="pregnancy__collage">
+      <div class="subtitile">
+        <h3>Mamãe cuidando de tudo enquanto eu cresço</h3>
+        <img src="assets/img/ovo-Photoroom.png" alt="">
+      </div>
+      <div class="pregnancy__collage-photos">
+        <img src="assets/img/exemplo.png" alt="">
+        <img src="assets/img/exemplo.png" alt="">
+        <img src="assets/img/exemplo.png" alt="">
+        <img src="assets/img/exemplo.png" alt="">
+      </div>
+    </div>
+
+    <div class="preBirth">
+      <div class="subtitile">
+        <img src="assets/img/rex.png" alt="">
+        <h3>Chegando a hora...</h3>
+      </div>
+
+      <div>
+        <div class="newSwiper myNewSwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
   </section>
+
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
   <script>
-    var swiper = new Swiper(".mySwiper", {
-      grabCursor: true,
-      effect: "creative",
-      creativeEffect: {
-        prev: {
-          shadow: true,
-          translate: [0, 0, -400],
-        },
-        next: {
-          translate: ["100%", 0, 0],
-        },
-      },
-      autoplay: {
-        delay: 4000,  
-    },
-    });
+
   </script>
 </body>
 </html>

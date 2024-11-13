@@ -114,6 +114,30 @@ h2 {
     margin: 5rem auto;
 }
 
+.subtitile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtitile h3 {
+    color: var(--laranja);
+    text-shadow:
+    2px 2px 0 #84C4E0,
+    -2px -2px 0 #84C4E0,
+    2px -2px 0 #84C4E0,
+    -2px 2px 0 #84C4E0;
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center;
+    filter: drop-shadow(8px 10px 5px rgba(0, 0, 0, 0.2));
+    text-transform: uppercase;
+}
+
+.subtitile img {
+    width: 20%;
+}
+
 .pregnancy__start img {
     width: 100%;
     border-radius: 20px;
@@ -121,16 +145,60 @@ h2 {
 }
 
 .swiper {
-    margin: 100px auto;
+    margin: 80px auto;
     width: 320px;
     height: 320px;
-  }
+}
 
-  .swiper-slide {
+.swiper-slide {
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 22px;
     font-weight: bold;
     color: #fff;
-  }
+}
+
+.pregnancy__collage {
+    width: 90vw;
+    margin: 0 auto 50px;
+}
+
+.pregnancy__collage-photos {
+    width: 100%;
+}
+
+.pregnancy__collage-photos img {
+    width: 49%;
+}
+
+
+
+
+
+
+
+.preBirth {
+    position: relative;
+    height: 100%;
+}
+
+.newSwiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+
