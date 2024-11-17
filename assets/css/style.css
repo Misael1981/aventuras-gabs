@@ -214,4 +214,81 @@ body {
     width: 100%;
 }
 
+/* ===== FirstYear ===== */
+
+.firstYear .speechBubbles {
+    margin: 2rem auto;
+    border-radius: 60px 60px 10px 60px;
+}
+
+/* ===== FirstYear Carrossel ===== */
+
+.firstYear .firstYear__birth {
+  position: relative;
+  height: 100%;
+}
+
+.firstYear  swiper-container {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -150px;
+    margin-top: 0px;
+}
+
+.firstYear swiper-slide {
+    background-position: center;
+    background-size: cover;
+}
+
+.firstYear swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+.firstYear__home h3 {
+    color: var(--laranja);
+    text-shadow:
+    2px 2px 0 #84C4E0,
+    -2px -2px 0 #84C4E0,
+    2px -2px 0 #84C4E0,
+    -2px 2px 0 #84C4E0;
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    filter: drop-shadow(8px 10px 5px rgba(0, 0, 0, 0.2));
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.firstYear__home {
+    width: 90vw;
+    margin: 350px auto 0;
+}
+
+.firstYear__home img {
+    width: 100%;
+}
+
+.firstYear__father {
+    width: 90vw;
+    margin: 2rem auto;
+}
+
+.firstYear__father-img {
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    /* background-color: tomato; */
+    border: 30px solid;
+    border-image-source: url("../img/borda-palmeiras-Photoroom.png");
+    border-image-repeat: round;
+    border-image-slice: 162;
+    border-width: 30px;
+    border-image-outset: 5px;
+}
+
+
 
