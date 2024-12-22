@@ -37,16 +37,6 @@ h2 {
     text-transform: uppercase;
 }
 
-.aside {
-    width: 270px;
-    background: var(--bg-black-100);
-    position: fixed;
-    left: 0;
-    top: 0;
-    padding: 30px;
-    height: 100%;
-}
-
 /* ===== Home ===== */
 
 .home h1 {
